@@ -1,0 +1,139 @@
+.Icons{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.navIcons{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    gap: 1rem;
+}
+
+
+
+@media only screen and (max-width: 600px) and (min-width: 200px){
+
+    .Icons{
+        background-color: #f3f3f3;
+        
+        
+    }
+    
+    .navIcons{
+        display: flex;
+        justify-content: space-around;
+        gap: 3.5rem;
+        color: black;
+        background-color: #f3f3f3;
+        position: relative;
+        
+
+    }
+}
+@media only screen and (max-width: 399px) and (min-width: 389px){
+    .navIcons{
+        display: flex;
+        justify-content: space-around;
+        gap: 3.8rem;
+        color: black;
+        background-color: #f3f3f3;
+        position: relative;
+        
+
+    }
+}
+
+@media only screen and (max-width: 300px) and (min-width: 200px){
+
+    .Icons{
+        background-color:#f3f3f3;
+    }
+    
+    .navIcons{
+        display: flex;
+        justify-content: space-around;
+        gap: 2.2rem;
+        color: black;
+        background-color: #f3f3f3;
+        position: relative;
+    }
+}
+
+ @media only screen and (max-width: 430px) and (min-width: 401px){
+     .Icons{
+        background-color: #f3f3f3;
+        
+    }
+
+    .navIcons{
+        display: flex;
+        justify-content: space-around;
+        gap: 4.2rem;
+        color: black;
+        background-color: #f3f3f3;
+        position: relative;
+    }
+ }
+
+ @media only screen and (max-width: 550px) and (min-width: 500px){
+        .navIcons{
+        display: flex;
+        justify-content: space-around;
+        gap: 6.1rem;
+        color: black;
+        background-color: #f3f3f3;
+        position: relative;
+        margin-bottom: 0;
+    }
+ }
+
+  @media only screen and (max-width: 819px) and (min-width: 549px){
+        .navIcons{
+        display: flex;
+        justify-content: space-around;
+        gap: 9.6rem;
+        color: black;
+        background-color: #f3f3f3;
+        position: relative;
+        margin-bottom: 0;
+    }
+ }
+
+   @media only screen and (max-width: 829px) and (min-width: 820px){
+        .navIcons{
+        display: flex;
+        justify-content: space-around;
+        gap: 10.5rem;
+        color: black;
+        background-color: #f3f3f3;
+        position: relative;
+        margin-bottom: 0;
+    }
+ }
+
+ 
+  /* you will have to adjust this */
+  
+ @media only screen and (max-width: 950px) and (min-width: 830px){
+.navIcons{
+        display: flex;
+        justify-content: space-around;
+        gap: 12rem;
+        color: black;
+        background-color: #f3f3f3;
+        position: relative;
+        margin-bottom: 0;
+    }
+ } 
+
+ 
+
+ @media only screen and (max-width: 1300px) and (min-width: 951px){
+    .navIcons{
+        gap: 3rem;
+    }
+}

@@ -1,0 +1,27 @@
+.Notification {
+  flex: 1;
+}
+
+.NotificationCont {
+  width: 20pc;
+  height: 60vh;
+  background-color: var(--cardColor);
+  margin-top: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.imagedivv {
+  margin-left: 1rem;
+}
+
+.exploreimage {
+  width: 120px;
+  height: 150px;
+  margin-left: 4px;
+  border-radius: 4px;
+  margin-top: 4px;
+  object-fit: cover;
+  align-items: flex-start;
+}

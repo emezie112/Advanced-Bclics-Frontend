@@ -1,0 +1,123 @@
+.Post {
+  position: relative;
+}
+
+.imgclass {
+  margin-left: 1rem;
+}
+
+.imgclass > img {
+  width: 160px;
+  height: 200px;
+  margin-left: 0;
+  border-radius: 4px;
+  margin-top: 4px;
+  object-fit: cover;
+  align-items: flex-start;
+}
+
+ @media only screen and (max-width: 600px) and (min-width: 200px) {
+.imgclass > img {
+  width: 150px;
+  height: 180px;
+  margin-left: 0;
+  border-radius: 4px;
+  margin-top: 4px;
+  object-fit: cover;
+  align-items: flex-start;
+}
+
+}
+
+@media only screen and (max-width: 300px) and (min-width: 200px) {
+.imgclass > img {
+  width: 105px;
+  height: 170px;
+  margin-left: 0;
+  border-radius: 4px;
+  margin-top: 4px;
+  object-fit: cover;
+  align-items: flex-start;
+}
+
+}
+
+@media only screen and (max-width: 399px) and (min-width: 310px) {
+.imgclass > img {
+  width: 145px;
+  height: 170px;
+  margin-left: 0;
+  border-radius: 4px;
+  margin-top: 4px;
+  object-fit: cover;
+  align-items: flex-start;
+}
+
+}
+
+@media only screen and (max-width: 440px) and (min-width: 400px) {
+.imgclass > img {
+  width: 170px;
+  height: 200px;
+  margin-left: 0;
+  border-radius: 4px;
+  margin-top: 4px;
+  object-fit: cover;
+  align-items: flex-start;
+}
+
+}
+
+@media only screen and (max-width: 819px) and (min-width: 720px) {
+.imgclass > img {
+  width: 220px;
+  height: 300px;
+  margin-left: 0;
+  border-radius: 4px;
+  margin-top: 4px;
+  object-fit: cover;
+  align-items: flex-start;
+}
+
+}
+
+@media only screen and (max-width: 909px) and (min-width: 820px) {
+.imgclass > img {
+  width: 240px;
+  height: 300px;
+  margin-left: 0;
+  border-radius: 4px;
+  margin-top: 4px;
+  object-fit: cover;
+  align-items: flex-start;
+}
+
+}
+
+
+@media only screen and (max-width: 999px) and (min-width: 910px) {
+.imgclass > img {
+  width: 265px;
+  height: 350px;
+  margin-left: 0;
+  border-radius: 4px;
+  margin-top: 4px;
+  object-fit: cover;
+  align-items: flex-start;
+}
+
+}
+
+
+@media only screen and (max-width: 1300px) and (min-width: 1000px) {
+.imgclass > img {
+  width: 160px;
+  height: 200px;
+  margin-left: 0;
+  border-radius: 4px;
+  margin-top: 4px;
+  object-fit: cover;
+  align-items: flex-start;
+}
+
+} 
