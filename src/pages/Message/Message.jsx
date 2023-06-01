@@ -1,11 +1,10 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import Icons from '../../components/Icons/Icons'
-import LogoSearch from '../../components/LogoSearch/LogoSearch'
-import MessageCard from '../../components/MessageCard/MessageCard'
-import MessageText from '../../components/MessageText/MessageText'
-import { Followers } from '../../Data/FollowersData'
-import './Message.css'
+import React from "react";
+import { Link } from "react-router-dom";
+import Icons from "../../components/Icons/Icons";
+import MessageCard from "../../components/MessageCard/MessageCard";
+import MessageText from "../../components/MessageText/MessageText";
+import { Followers } from "../../Data/FollowersData";
+import "./Message.css";
 
 const Message = () => {
   return (
@@ -31,6 +30,10 @@ const Message = () => {
             >
               <MessageCard />
             </Link>
+
+            <div className="Icomma">
+              <Icons />
+            </div>
           </div>
         </div>
       </div>
@@ -50,6 +53,6 @@ const Message = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Message
+export default Message;

@@ -8,14 +8,16 @@ import Message from "./pages/Message/Message";
 import Search from "./pages/Search/Search";
 import Video from "./pages/Video/Video";
 import MessageText from "./components/MessageText/MessageText";
-import LikesPage from "./components/LikesPage/LikesPage";
-import CommentsPage from "./components/CommentsPage/CommentsPage";
-import SharePage from "./components/SharePage/SharePage";
 import Status from "./components/Status/Status";
 import StatusText from "./components/StatusText/StatusText";
-import Notifications from "./components/Notifications/Notifications";
-import Advertise from "./components/Advertise/Advertise";
-import ViewsPage from "./components/ViewsPage/ViewsPage";
+import LikePage from "./pages/LikePage/LikePage";
+import SharePage from "./pages/SharePage/SharePage";
+import ViewPage from "./pages/ViewPage/ViewPage";
+import NotificationPage from "./pages/NotificationPage/NotificationPage";
+import FollowersPage from "./pages/FollowersPage/FollowersPage";
+import AdvertisementPage from "./pages/AdvertisementPage/AdvertisementPage";
+import SuggestedPage from "./pages/SuggestedPage/SuggestedPage";
+import HashtagPage from "./pages/HashtagPage/HashtagPage";
 
 function App() {
   const [imageNum, setImageNum] = useState(0);
@@ -30,8 +32,6 @@ function App() {
           <Routes>
             {/* This is the login or signup page, the first thing a user will see */}
             <Route path="/" element={<Auth />} exact />
-            
-
             {/* { This will be the home Page} */}
             <Route
               path="video"
@@ -44,7 +44,6 @@ function App() {
                 />
               }
             />
-
             {/* {This will be The Search page} */}
             <Route
               path="search"
@@ -57,7 +56,6 @@ function App() {
                 />
               }
             />
-
             {/* {This will be the My page or followers page,
            this is where this people he is following posts will be} */}
             <Route
@@ -71,44 +69,34 @@ function App() {
                 />
               }
             />
-
             {/* This is the message page, this is the page where all the messages
          of those his following will be will be */}
             <Route path="message" element={<Message />} />
-
             {/* This is the account page, this is the page where the users Profile
           will be. personal info */}
             <Route path="account" element={<Profile />} />
-
             {/* This is the chatting page */}
             <Route path="chat" element={<MessageText />} />
-
-            {/* { this is for likes page to see the people that liked your post} */}
-            <Route path="likes" element={<LikesPage />} />
-
-            {/* { this is for comments page to see the people that commented your post} */}
-            <Route path="comments" element={<CommentsPage />} />
-
-            {/* { this is for shares page to see the people that shared your post} */}
-            <Route path="share" element={<SharePage />} />
-
             {/* This is for status just like whatapp status */}
             <Route path="status" element={<Status />} />
-
             {/* this is the status image */}
             <Route path="statusimg" element={<StatusText />} />
-
-            {/* This is the notification page, the bell icon 
-            this is for notifications page to see all the notifications going on in your 
-            account */}
-            <Route path="notify" element={<Notifications />} />
-
-            {/* This is the Advertisement page */}
-            <Route path="advertise" element={<Advertise />} />
-
-            {/* This is the viewsPage where all the people that 
-            have viewed your post are displayed */}
-            <Route path="views" element={<ViewsPage />} />
+            {/* this is the status image */}
+            <Route path="like" element={<LikePage />} />
+            {/* this is the status image */}
+            <Route path="share" element={<SharePage />} />
+            {/* this is the status image */}
+            <Route path="view" element={<ViewPage />} />
+            {/* this is the status image */}
+            <Route path="notification" element={<NotificationPage />} />
+            {/* this is the status image */}
+            <Route path="followers" element={<FollowersPage />} />
+            {/* this is the status image */}
+            <Route path="advertisement" element={<AdvertisementPage />} />
+            {/* this is the status image */}
+            <Route path="suggested" element={<SuggestedPage />} />
+            {/* this is the status image */}
+            <Route path="hashtag" element={<HashtagPage />} />
           </Routes>
         </main>
       </BrowserRouter>

@@ -1,11 +1,11 @@
-.Search_page {
+.LikePage {
   position: relative;
   display: grid;
   grid-template-columns: 24rem auto 20rem;
   gap: 1rem;
 }
 
-.Search {
+.LikeSearch {
   display: flex;
   background-color: var(--inputColor);
   border-radius: 10px;
@@ -16,11 +16,11 @@
   width: 95%;
 }
 
-.Search > input {
+.LikeSearch > input {
   background-color: transparent;
   border: none;
   outline: none;
-  width: 90%;
+  width: 96%;
 }
 
 .s-icon {
@@ -42,15 +42,21 @@
   flex-direction: column;
 }
 
+.CNlikes{
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .Icomm {
   display: none;
 }
 
 @media only screen and (max-width: 600px) and (min-width: 200px) {
-  .Search_page {
+  .LikePage {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
   }
 
   .loggg {
@@ -63,14 +69,14 @@
     bottom: 0;
   }
 
-  .Search {
+  .LikeSearch {
     display: flex;
     flex-direction: row;
   }
 }
 
 @media only screen and (max-width: 300px) and (min-width: 200px) {
-  .Search_page {
+  .LikePage {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,7 +94,7 @@
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 600px) {
-  .Search_page {
+  .LikePage {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,7 +112,7 @@
 }
 
 @media only screen and (max-width: 1300px) and (min-width: 1000px) {
-  .Search_page {
+  .LikePage {
     position: relative;
     display: grid;
     grid-template-columns: 18rem auto 20rem;

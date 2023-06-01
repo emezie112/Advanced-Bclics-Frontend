@@ -1,7 +1,5 @@
 //This is the page that shows everybody and all the posts the user is following
 
-
-
 import React from "react";
 import PostSideR from "../../components/PostSideR/PostSideR";
 import RightSide from "../../components/RightSide/RightSide";
@@ -18,7 +16,7 @@ const Home = () => {
 
       <div className="Pos">
         <PostSideR />
-        <div className="Icomm">
+        <div className="Icomms">
           <Icons />
         </div>
       </div>

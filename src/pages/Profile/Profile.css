@@ -9,7 +9,7 @@
   display: none;
 }
 
-.Icomm {
+.Icommt {
   display: none;
 }
 
@@ -28,7 +28,7 @@
     display: block;
   }
 
-  .Icomm {
+  .Icommt {
     position: fixed;
     display: block;
     bottom: 0;
@@ -50,7 +50,7 @@
     display: block;
   }
 
-  .Icomm {
+  .Icommt {
     position: fixed;
     display: block;
     bottom: 0;
@@ -72,10 +72,11 @@
     display: block;
   }
 
-  .Icomm {
+  .Icommt {
     position: fixed;
     display: block;
     bottom: 0;
+    margin-left: 1rem;
   }
 }
 
@@ -89,7 +90,7 @@
   .logg {
     display: none;
   }
-  .Icomm {
+  .Icommt {
     display: none;
   }
 }

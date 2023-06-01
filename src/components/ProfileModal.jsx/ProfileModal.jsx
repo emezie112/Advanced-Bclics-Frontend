@@ -13,47 +13,48 @@ function ProfileModal({ modalOpened, setModalOpened }) {
       }
       overlayOpacity={0.55}
       overlayBlur={3}
-      size="55%"
+      size="85%"
       opened={modalOpened}
       onClose={() => setModalOpened(false)}
     >
-      <form className="infoForm">
-        <h3>Your info</h3>
+      <div className="yourInfo">
+        <form className="infoForm">
+          <h3>Your info</h3>
 
-        <div>
-          <input
-            type="text"
-            className="infoInput"
-            name="FirstName"
-            placeholder="First Name"
-          />
+          <div className="textName">
+            <input
+              type="text"
+              className="infoInput"
+              name="FirstName"
+              placeholder="First Name"
+            />
 
-          <input
-            type="text"
-            className="infoInput"
-            name="LastName"
-            placeholder="Last Name"
-          />
-        </div>
+            <input
+              type="text"
+              className="infoInput"
+              name="LastName"
+              placeholder="Last Name"
+            />
+          </div>
+          <div></div>
 
-        <div>
-          <input
-            type="text"
-            className="infoInput"
-            placeholder="Write ups"
-          />
-        </div>
+          <div className="writup">
+            <input type="text" className="infoInput" placeholder="Write ups" />
+          </div>
 
-
-        <div>
-            Profile Image 
-            <input type="file" name='profileImg'/>
-            Cover Image
-            <input type="file" name="coverImg" />
-        </div>
-
-        <button className="button infoButton">Update</button>
-      </form>
+          <div className="imG">
+            <div>
+              Profile Image
+              <input type="file" name="profileImg" />
+            </div>
+            <div>
+              Cover Image
+              <input type="file" name="coverImg" />
+            </div>
+            <button className="button infoButton ">Update</button>
+          </div>
+        </form>
+      </div>
     </Modal>
   );
 }

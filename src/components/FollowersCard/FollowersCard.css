@@ -1,58 +1,53 @@
-
-.FollowersCard{
-    width: 80%;
-    border-radius: 0.7rem;
-    gap: 1rem;
-    display: flex;
-    flex-direction: column;
-    font-size: 13px;
+.FollowersCard {
+  width: 80%;
+  border-radius: 0.7rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
 }
-.FollowersCard>h2{
-    color: var(--orange);
-}
-
-.follower{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.FollowersCard > h2 {
+  color: var(--orange);
 }
 
-.follower>div{
-    display: flex;
-    gap: 10px;
+.follower {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
-.followerImage{
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
+.follower > div {
+  display: flex;
+  gap: 10px;
 }
 
-.name{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+.followerImage {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
 }
 
-.name>span:nth-of-type(1){
-    font-weight: bolder;
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-
-.pc-button{
-    height: 1.8rem;
-    padding-left: 12px;
-    padding-right: 12px;
+.name > span:nth-of-type(1) {
+  font-weight: bolder;
 }
 
-.more{
-    display: flex;
-    align-items: center;
-    font-size: 12px;
+.pc-button {
+  height: 1.8rem;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
-
-
-
+.more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color:var(--orange);
+}

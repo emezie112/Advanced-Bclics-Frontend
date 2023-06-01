@@ -1,199 +1,227 @@
-.boxb{
-    margin-right: 1rem;
-    
+.boxb {
+  margin-right: 1rem;
+  background-color: inherit;
 }
 
-.MessageText{
-    margin-left: 0;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
+.MessageText {
+  margin-left: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  background-color: inherit;
 }
 
-.position>img{
-    width: 3.5rem;
-    height: 3.5rem;
-    border-radius: 50%;
+.position > img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
 }
 
-.onName{
-    display: flex;
-    flex-direction: column;
-    gap:0rem;
+.onName {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
 }
 
-.position{
-    display: flex;
-    margin-left: -3.5rem;
-    gap: 1rem;
+.position {
+  display: flex;
+  margin-left: -3.5rem;
+  gap: 1rem;
 }
-.position>span{
-    font-weight:bold;
-    font-size: 1.2rem;
-    display: flex;
-    width:100%;
-    justify-content: space-between;
-    gap: 3rem;
-    align-items:center;
-    margin-top: 3rem;
-}
-
-.word{
-    margin-top: -1rem;
-    color: green;
+.position > span {
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: center;
+  margin-top: 3rem;
 }
 
-.Bubbles{
-    display: flex;
-    justify-content: space-between;
+.word {
+  margin-top: -1rem;
+  color: green;
 }
 
-.MessageBubble1{
-    margin-top: 2rem;
-    height: 3rem;
-    width: auto;
-    color:white;
-    background-color: gray;
-    border-radius: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-.MessageBubble1>span{
-    font-size: 1rem;
-    gap: 1rem;
-    margin:1rem;
+.Bubbles {
+  display: flex;
+  justify-content: space-between;
 }
 
-.MessageBubble2{
-    margin-top: 7rem;
-    height: 3rem;
-    width: auto;
-    color: white;
-    background-color: var(--orange);
-    border-radius: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.MessageBubble1 {
+  margin-top: 2rem;
+  height: min-content;
+  width: auto;
+  color: white;
+  background-color: gray;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.MessageBubble2>span{
-    font-size: 1rem;
-    gap: 1rem;
-    margin:1rem;
-}
-
-.input_text{
-    display: flex;
-    position:fixed;
-    bottom:1rem;
-    gap: 1rem;
+.MessageBubble1 > span {
+  font-size: 1rem;
+  gap: 1rem;
+  margin: 1rem;
 }
 
-.input_text>input{
-    width: 40vw;
-    height: 2rem;
-    border-radius: 2rem;
-    font-size: 1.2rem;
-    border: none;
+.MessageBubble2 {
+  margin-top: 7rem;
+  height: min-content;
+  width: auto;
+  color: white;
+  background-color: var(--orange);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MessageBubble2 > span {
+  font-size: 1rem;
+  gap: 1rem;
+  margin: 1rem;
 }
 
-.Span{
-    width: 2rem;
-    height: 2rem;
-    font-size: 15rem;
-    border-radius: 20%;
-    align-items: center;
-    justify-content: center;
-    background-color: gray;
+.input_text {
+  display: flex;
+  position: fixed;
+  bottom: 1rem;
+  gap: 1rem;
 }
 
-.c-button{
-    height: 2rem;
-    padding-left: 25px;
-    padding-right: 25px;
-    align-items: center;
-    justify-content: center;
-    font-size: 1rem;
+.input_text > input {
+  width: 40vw;
+  height: 2rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
 }
 
-.Ic{
-    display:none;
+.Span {
+  width: 2rem;
+  height: 2rem;
+  font-size: 15rem;
+  border-radius: 20%;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
 }
 
-@media only screen and (max-width: 600px) and (min-width: 200px){
-    .MessageText{
+.c-button {
+  height: 2rem;
+  padding-left: 25px;
+  padding-right: 25px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.IcoT {
+  background-color: inherit;
+}
+
+.Ic {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 200px) {
+  .MessageText {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
-    }
-
-    .Ic{
-        display: flex;
-    }
-  .IcoT{
-    position: fixed;
-    bottom:0;
   }
 
-  .position>img{
+  .Ic {
+    display: flex;
+  }
+  .IcoT {
+    position: fixed;
+    bottom: 0;
+  }
+
+  .position > img {
     width: 3.5rem;
     height: 3.5rem;
     border-radius: 50%;
-}
+  }
 
-.position{
+  .position {
     display: flex;
     gap: 1rem;
-}
-.position>span{
-    font-weight:bold;
+  }
+  .position > span {
+    font-weight: bold;
     font-size: 1.5rem;
     display: flex;
-    width:100%;
+    width: 100%;
     justify-content: space-between;
     gap: 3rem;
-    align-items:center;
-}
+    align-items: center;
+  }
 
-.Bubbles{
+  .Bubbles {
     display: flex;
     justify-content: space-between;
-    height:80vh;
-}
+    height: 80vh;
+  }
+  .input_text > input {
+    width: 60vw;
+    height: 2rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+  }
 
-
-.IcoT>.input_text{
+  .IcoT > .input_text {
     display: flex;
-    position:sticky;
+    position: sticky;
     margin-top: 19rem;
     gap: 1rem;
-}
-.Span{
-    width: 3rem;
-    height: 3rem;
-    font-size: 15rem;
+  }
+  .Span {
+    width: 2rem;
+    height: 2rem;
+    font-size: 5rem;
     border-radius: 30%;
     align-items: center;
     justify-content: center;
     background-color: gray;
-}
-/* .IcoT>.input_text>input{
-    width: 80%;
+  }
+  .c-button {
     height: 2rem;
-    border-radius: 2rem;
-    font-size: 1rem;
-    font-weight: bold;
-} */
-
-.c-button{
-    height: 2rem;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     align-items: center;
     justify-content: center;
     font-size: 0.8rem;
+  }
 }
+
+@media only screen and (max-width: 300px) and (min-width: 200px) {
+  .MessageBubble1 > span {
+    font-size: 0.5rem;
+    gap: 0.5rem;
+    margin: 0.5rem;
+  }
+  .MessageBubble2 > span {
+    font-size: 0.5rem;
+    gap: 0.5rem;
+    margin: 0.5rem;
+  }
+  .input_text > input {
+    width: 55vw;
+    height: 2rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+  }
+  .input_text > input {
+    font-size: small;
+  }
 }

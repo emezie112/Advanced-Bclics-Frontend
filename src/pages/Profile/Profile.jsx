@@ -4,7 +4,6 @@ import RightSide from "../../components/RightSide/RightSide";
 import ProfileCard from "../../components/ProfileCard.jsx/ProfileCard";
 import "./Profile.css";
 import FollowersCard from "../../components/FollowersCard/FollowersCard";
-import ProfileSide from "../../components/profileSide/ProfileSide";
 import Icons from "../../components/Icons/Icons";
 
 const Profile = () => {
@@ -20,7 +19,7 @@ const Profile = () => {
           <ProfileCard />
         </div>
         <PostSide />
-        <div className="Icomm">
+        <div className="Icommt">
           <Icons />
         </div>
       </div>

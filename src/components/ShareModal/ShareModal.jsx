@@ -15,7 +15,7 @@ function ShareModal({ modalOpened, setModalOpened }) {
       }
       overlayOpacity={0.55}
       overlayBlur={3}
-      size="55%"
+      size="75%"
       opened={modalOpened}
       onClose={() => setModalOpened(false)}
     >

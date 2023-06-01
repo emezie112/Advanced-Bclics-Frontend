@@ -62,14 +62,31 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  bottom: 0.8rem;
-  left: 1rem;
-  width: 70%;
-  padding: 10px;
+  bottom: 0.5rem;
+  left: 0.5rem;
+  width: 75%;
+  padding: 8px;
   background-color: rgba(237, 225, 225, 0.218);
   border-radius: 1rem;
   color: white;
   margin: 0;
+}
+.detailw > span {
+  display: flex;
+  flex-direction:row;
+  align-items:flex-start;
+  justify-content:flex-start;
+}
+.detailw > span:nth-child(1) {
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:flex-start;
+  
+}
+.detailw > span:nth-child(2) {
+  display: flex;
+  margin-top: -1.2rem;
 }
 
 @media only screen and (max-width: 600px) and (min-width: 200px) {
