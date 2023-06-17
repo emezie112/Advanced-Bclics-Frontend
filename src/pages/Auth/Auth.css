@@ -127,7 +127,7 @@
 
   .infoButton {
     width: 6rem;
-    height: 2rem;
+    height: 5rem;
     align-self: flex-end;
   }
 
@@ -144,7 +144,7 @@
   }
 
   .authForm > div > input {
-    width: 4rem;
+    width: 90%;
     border-radius: 0.5rem;
   }
 }
@@ -192,6 +192,10 @@
     width: 100%;
     align-items: center;
     justify-content: center;
+  }
+    .authForm > div > input {
+    width: 90%;
+    border-radius: 0.5rem;
   }
 }
 

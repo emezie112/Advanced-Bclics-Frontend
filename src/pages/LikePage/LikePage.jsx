@@ -28,7 +28,7 @@ const LikePage = () => {
           <Likes />
         </div>
 
-        <div className="Icomm">
+        <div className="Icommst">
           <Icons />
         </div>
       </div>

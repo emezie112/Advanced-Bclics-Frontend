@@ -6,9 +6,8 @@ import { UilPen } from "@iconscout/react-unicons";
 import { Link } from "react-router-dom";
 import ProfileModal from "../ProfileModal.jsx/ProfileModal";
 
-const ProfileCard = () =>
-{
-   const [modalOpened, setModalOpened] = useState(false);
+const ProfileCard = () => {
+  const [modalOpened, setModalOpened] = useState(false);
 
   const ProfilePage = true;
   return (
@@ -20,7 +19,7 @@ const ProfileCard = () =>
 
       <div className="ProfileName">
         <span>Zendaya MJ</span>
-
+        <div className="doted">...</div>
         <div className="Edit">
           <p
             style={{ fontSize: "1.1rem", cursor: "poiter" }}
@@ -50,22 +49,37 @@ const ProfileCard = () =>
       <div className="followStatus">
         <hr />
         <div>
-          <div className="follow">
-            <span>6,890</span>
-            <span>Followings</span>
-          </div>
+          {/* This will change to "people you are following"
+          and you will renmove the blue background and leave the blue boarder when someone begins 
+          to follow somebody */}
+          <Link
+            style={{ textDecoration: "none", color: "inherit" }}
+            to="/followers"
+          >
+            <div className="follow">
+              <span>6,890</span>
+              <span>Followings</span>
+            </div>
+          </Link>
+
+          <div className="vl"></div>
+
+          {/* This will change to "people following you" */}
+          <Link
+            style={{ textDecoration: "none", color: "inherit" }}
+            to="/followers"
+          >
+            <div className="follow">
+              <span>3,565</span>
+              <span>Followers</span>
+            </div>
+          </Link>
+
           <div className="vl"></div>
           <div className="follow">
-            <span>1</span>
-            <span>Followers</span>
+            <span>3</span>
+            <span>Posts</span>
           </div>
-
-              <div className="vl"></div>
-              <div className="follow">
-                <span>3</span>
-                <span>Posts</span>
-              </div>
-         
         </div>
         <hr />
       </div>
@@ -75,7 +89,7 @@ const ProfileCard = () =>
         <div className="foll">
           <Link
             style={{ textDecoration: "none", color: "inherit" }}
-            to="/follow"
+            to="/suggested"
           >
             <button className="button logout-button">Follow Users</button>
           </Link>

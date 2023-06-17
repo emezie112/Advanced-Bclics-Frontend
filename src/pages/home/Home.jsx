@@ -14,8 +14,9 @@ const Home = () => {
         <ProfileSide />
       </div>
 
-      <div className="Pos">
-        <PostSideR />
+      <div>
+        <div className="dott">...</div>
+          <PostSideR />
         <div className="Icomms">
           <Icons />
         </div>

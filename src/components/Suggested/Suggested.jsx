@@ -1,11 +1,12 @@
 import React from "react";
-import "./Views.css";
-
+import "./Suggested.css";
 import { Followers } from "../../Data/FollowersData";
-const Views = () => {
+
+
+const Suggested = () => {
   return (
     <div className="Likes">
-      <h2>Who Viewed your post</h2>
+      <h2>follow people you may like</h2>
 
       {Followers.map((follower, id) => {
         return (
@@ -25,4 +26,4 @@ const Views = () => {
   );
 };
 
-export default Views;
+export default Suggested;

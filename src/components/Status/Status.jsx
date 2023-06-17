@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Icons from '../../components/Icons/Icons'
-import { Followers } from '../../Data/FollowersData'
 import StatusCard from '../StatusCard/StatusCard'
 import StatusText from '../StatusText/StatusText'
 import './Status.css'
@@ -38,6 +37,7 @@ const Status = () => {
             <StatusText/>
           </div>
       </div>
+      hello world
     </div>
   )
 }

@@ -9,7 +9,7 @@ const Likes = () => {
 
       {Followers.map((follower, id) => {
         return (
-          <div className="like">
+          <div className="likttt">
             <div>
               <img src={follower.img} alt="" className="likeImage" />
               <div className="Names">

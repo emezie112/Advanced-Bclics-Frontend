@@ -1,80 +1,65 @@
-import React from 'react' 
-import { Link } from 'react-router-dom'
-import { UilBell } from '@iconscout/react-unicons'
-import './Advertise.css'
-import Icons from '../Icons/Icons'
+import React from "react";
+import "./Advertise.css";
 
 const Advertise = () => {
   return (
     <div className="Advertise">
-      <div className="brow">
-       <div className="bclics">
-          <Link style={{ textDecoration: "none", color: "inherit" }}
-            to='/video'><h2>Bclics</h2></Link>
-        
-        </div>
-        
-        <div className="bell">
-          <Link style={{ textDecoration: "none", color: "inherit" }}
-            to='/notify'><UilBell/></Link>
-        </div>
-        <div className="num"><h6>15</h6></div>
-       
-      </div>
-
       <div className="ads">
-        <h1>Advertise with everyone on Bclics Social Media</h1>
-
-        <h2>NOTE: any ads paid for, here will be seen by everyone on the social media</h2>
-
+        <h1> Advertise your contents </h1>
 
         <div className="adsPlan">
           <hr style={{ width: "92%", border: "0.8px solid #ececec" }} />
-          
-          <span className="adsSpan">Advertise Daily, using the daily plan for #2,000 
-            <span>you can only upload images or writeups for this plan</span>
-            <div><button className="button L-button">
-              Pay Now
-            </button>
-          </div>
-          </span>
-          <hr style={{ width: "92%", border: "0.8px solid #ececec" }} />
 
-          <span className="adsSpan">Advertise weekly, using the weekly plan for #9,700 
-            <span>you can only upload images or writeups for this plan</span>
-            <div><button className="button L-button">
-              Pay Now
-            </button>
-          </div>
-          </span>
-          <hr style={{ width: "92%", border: "0.8px solid #ececec" }} />
+          <div>
+            <p>Advertisments will be paid for using clics</p>
+            <p>i.e : 1clic = #788.</p>
 
-          <span className="adsSpan">Advertise Daily, using the daily plan for #3,500 
-            <span>you can only videos for this plan</span>
-            <div><button className="button L-button">
-              Pay Now
-            </button>
-          </div>
-          </span>
-          <hr style={{ width: "92%", border: "0.8px solid #ececec" }} />
+            <div className="gappp"></div>
 
-          <span className="adsSpan">Advertise weekly, using the weekly plan for #17,500 
-            <span>you can only upload images or writeups for this plan</span>
-            <div><button className="button L-button">
-              Pay Now
-            </button>
+            <p>for images or write ups 0.96clics = 130 views</p>
+            <div className="adstype">
+              {/* what ever is written in the amount bar will be multiplied by 5.8
+              what ever is the answer will automatically appear in the Total views bar
+              so therefore the total veiws will be disabled
+              
+              also the least amount should be 0.96clics which is #756*/}
+              <input type="text" placeholder="write any amount" />{" "}
+              <span className="equ">=</span>{" "}
+              <input type="text" disabled placeholder="  total views" />
+            </div>
+            <button className="button adsbutton">pay now</button>
           </div>
+
+          <div className="gappp"></div>
+          <div>
+            <p>for videos 1.2clics = 130 views</p>
+            <div className="adstype">
+              {/* what ever is written in the amount bar will be multiplied by 5.8
+              what ever is the answer will automatically appear in the Total views bar
+              so therefore the total veiws will be disabled
+              
+              also the least amount should be 1.2clics which is #945*/}
+              <input type="text" placeholder="write any amount" />{" "}
+              <span className="equ">=</span>{" "}
+              <input type="text" disabled placeholder="  total views" />
+            </div>
+            <button className="button adsbutton">pay now</button>
+          </div>
+
+          <span>
+            <p>
+              {" "}
+              Disclamer : The advertisment system works like a poster type.
+            </p>
+            <p>
+              When it is viewed by the total number of people paided for, it
+              will atomatically delete, thereby awaiting renewnal.
+            </p>
           </span>
-          <hr style={{ width: "92%", border: "0.8px solid #ececec" }} />
         </div>
-      
-      </div>
-
-      <div className="SIcoms">
-        <Icons/>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Advertise
+export default Advertise;

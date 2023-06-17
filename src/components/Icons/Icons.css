@@ -114,9 +114,6 @@
         margin-bottom: 0;
     }
  }
-
- 
-  /* you will have to adjust this */
   
  @media only screen and (max-width: 950px) and (min-width: 830px){
 .navIcons{

@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Icons from "../../components/Icons/Icons";
 import MessageCard from "../../components/MessageCard/MessageCard";
 import MessageText from "../../components/MessageText/MessageText";
-import { Followers } from "../../Data/FollowersData";
 import "./Message.css";
 
 const Message = () => {

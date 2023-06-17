@@ -1,52 +1,212 @@
-.Views{
+.Likes {
+  width: 100%;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+.Likes > h2 {
+  color: var(--orange);
+}
+
+.likttt {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.likttt > div {
+  display: flex;
+  gap: 10px;
+}
+
+.likeImage {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.Names {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.Names > span:nth-of-type(1) {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.Names > span:nth-of-type(2) {
+  font-size: 0.9rem;
+}
+
+.PP-button {
+  height: 2.3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 200px) {
+  .Likes {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    border-radius: 0.7rem;
-    gap: 1rem;
+  }
+  .Likes > h2 {
+    font-size: 1.4rem;
+  }
+  .PP-button {
+    height: 1.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     display: flex;
-    flex-direction: column;
-    font-size: 13px;
-}
-.Likes>h2{
-    color: var(--orange);
-}
-
-.liker{
+    align-items: center;
+    justify-content: center;
+  }
+  .likttt {
     display: flex;
+    width: 100%;
     justify-content: space-between;
-    align-items: center;
-}
-
-.liker>div{
-    display: flex;
-    gap: 10px;
-}
-
-
-.LikerImage{
-    width: 3.2rem;
-    height: 3.2rem;
-    border-radius: 50%;
-}
-
-.Likername{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-.Likername>span:nth-of-type(1){
-    font-weight: bolder;
-    font-size: 1rem;
-}
-
-@media only screen and (max-width: 600px) and (min-width: 200px){
-    .Share{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     position: relative;
-    height: 99vh;
-    }
- }
+  }
+  .likttt > .PP-button {
+    position: absolute;
+    right: 0;
+  }
+  .likeImage {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+  }
+  .Names > span:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  .Names > span:nth-of-type(2) {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 300px) and (min-width: 200px) {
+  .PP-button {
+    height: 1.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Likes > h2 {
+    font-size: 1.1rem;
+  }
+  .likttt {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+  }
+  .likttt > .PP-button {
+    position: absolute;
+    right: 0;
+  }
+  .likeImage {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+  }
+  .Names > span:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  .Names > span:nth-of-type(2) {
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 600px) {
+  .Likes {
+    display: flex;
+    flex-direction: column;
+    width: 150%;
+  }
+  .Likes > h2 {
+    font-size: 1.4rem;
+  }
+  .PP-button {
+    height: 2rem;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .likttt {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+  }
+  .likttt > div {
+    margin-left: -8rem;
+  }
+  .likttt > .PP-button {
+    position: absolute;
+    right: 0;
+  }
+  .likeImage {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+  }
+  .Names > span:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  .Names > span:nth-of-type(2) {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1000px) {
+  .Likes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .Likes > h2 {
+    font-size: 1.4rem;
+  }
+  .PP-button {
+    height: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .likttt {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+  }
+  .likttt > .PP-button {
+    position: absolute;
+    right: 0;
+  }
+  .likeImage {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+  }
+  .Names > span:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  .Names > span:nth-of-type(2) {
+    font-size: 0.7rem;
+  }
+}

@@ -1,44 +1,49 @@
-.Likes {
+.Notify {
   width: 100%;
   gap: 1rem;
   display: flex;
   flex-direction: column;
   font-size: 13px;
 }
-.Likes > h2 {
+.Notify > h2 {
   color: var(--orange);
 }
 
-.likttt {
+.likg {
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
 }
 
-.likttt > div {
+.likg > div {
   display: flex;
   gap: 10px;
 }
 
-.likeImage {
+.NotifyImage {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
 }
 
-.Names {
+.commentImage {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 5%;
+}
+
+.Namesy {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 }
 
-.Names > span:nth-of-type(1) {
-  font-weight: bold;
+.Namesy > span:nth-of-type(1) {
   font-size: 1.1rem;
 }
-.Names > span:nth-of-type(2) {
+.Namesy > span:nth-of-type(2) {
   font-size: 0.9rem;
 }
 
@@ -50,12 +55,12 @@
 }
 
 @media only screen and (max-width: 600px) and (min-width: 200px) {
-  .Likes {
+  .Notify {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-  .Likes > h2 {
+  .Notify > h2 {
     font-size: 1.4rem;
   }
   .PP-button {
@@ -66,26 +71,30 @@
     align-items: center;
     justify-content: center;
   }
-  .likttt {
+  .likg {
     display: flex;
     width: 100%;
     justify-content: space-between;
     position: relative;
   }
-  .likttt > .PP-button {
+  .likg > .PP-button {
     position: absolute;
     right: 0;
   }
-  .likeImage {
+  .NotifyImage {
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
   }
-  .Names > span:nth-of-type(1) {
-    font-weight: bold;
+  .commentImage {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 5%;
+}
+  .Namesy > span:nth-of-type(1) {
     font-size: 0.9rem;
   }
-  .Names > span:nth-of-type(2) {
+  .Namesy > span:nth-of-type(2) {
     font-size: 0.7rem;
   }
 }
@@ -99,40 +108,44 @@
     align-items: center;
     justify-content: center;
   }
-  .Likes > h2 {
+  .Notify > h2 {
     font-size: 1.1rem;
   }
-  .likttt {
+  .likg {
     display: flex;
     width: 100%;
     justify-content: space-between;
     position: relative;
   }
-  .likttt > .PP-button {
+  .likg > .PP-button {
     position: absolute;
     right: 0;
   }
-  .likeImage {
+  .NotifyImage {
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
   }
-  .Names > span:nth-of-type(1) {
-    font-weight: bold;
+  .commentImage {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 5%;
+}
+  .Namesy > span:nth-of-type(1) {
     font-size: 0.8rem;
   }
-  .Names > span:nth-of-type(2) {
+  .Namesy > span:nth-of-type(2) {
     font-size: 0.6rem;
   }
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 600px) {
-  .Likes {
+  .Notify {
     display: flex;
     flex-direction: column;
     width: 150%;
   }
-  .Likes > h2 {
+  .Notify > h2 {
     font-size: 1.4rem;
   }
   .PP-button {
@@ -143,40 +156,44 @@
     align-items: center;
     justify-content: center;
   }
-  .likttt {
+  .likg {
     display: flex;
     width: 100%;
     justify-content: space-between;
     position: relative;
   }
-  .likttt > div {
+  .likg > div {
     margin-left: -8rem;
   }
-  .likttt > .PP-button {
+  .likg > .PP-button {
     position: absolute;
     right: 0;
   }
-  .likeImage {
+  .NotifyImage {
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
   }
-  .Names > span:nth-of-type(1) {
-    font-weight: bold;
+  .commentImage {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 5%;
+}
+  .Namesy > span:nth-of-type(1) {
     font-size: 1.1rem;
   }
-  .Names > span:nth-of-type(2) {
+  .Namesy > span:nth-of-type(2) {
     font-size: 1rem;
   }
 }
 
 @media only screen and (max-width: 1300px) and (min-width: 1000px) {
-  .Likes {
+  .Notify {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-  .Likes > h2 {
+  .Notify > h2 {
     font-size: 1.4rem;
   }
   .PP-button {
@@ -187,26 +204,30 @@
     align-items: center;
     justify-content: center;
   }
-  .likttt {
+  .likg {
     display: flex;
     width: 100%;
     justify-content: space-between;
     position: relative;
   }
-  .likttt > .PP-button {
+  .likg > .PP-button {
     position: absolute;
     right: 0;
   }
-  .likeImage {
+  .NotifyImage {
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
   }
-  .Names > span:nth-of-type(1) {
-    font-weight: bold;
+  .commentImage {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 5%;
+}
+  .Namesy > span:nth-of-type(1) {
     font-size: 0.9rem;
   }
-  .Names > span:nth-of-type(2) {
+  .Namesy > span:nth-of-type(2) {
     font-size: 0.7rem;
   }
 }

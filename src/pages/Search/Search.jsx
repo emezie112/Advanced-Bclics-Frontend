@@ -25,7 +25,7 @@ const Search = () => {
           </div>
         </div>
         <Posts />
-        <div className="Icomm">
+        <div className="Icommk">
           <Icons />
         </div>
       </div>

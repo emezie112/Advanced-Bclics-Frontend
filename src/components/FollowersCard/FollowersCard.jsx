@@ -1,11 +1,16 @@
 import React from "react";
 import "./FollowersCard.css";
-
 import { Followers } from "../../Data/FollowersData";
+import { Link } from "react-router-dom";
 const FollowersCard = () => {
   return (
     <div className="FollowersCard">
-      <h2>People you may know</h2>
+      <Link
+        style={{ textDecoration: "none", color: "var(--orange)" }}
+        to="/suggested"
+      >
+        <h2>People you may know</h2>
+      </Link>
 
       {Followers.map((follower, id) => {
         return (
@@ -22,7 +27,12 @@ const FollowersCard = () => {
         );
       })}
 
-      <span className="more"> more...</span>
+      <Link
+        style={{ textDecoration: "none", color: "inherit" }}
+        to="/suggested"
+      >
+        <span className="more"> more...</span>
+      </Link>
     </div>
   );
 };

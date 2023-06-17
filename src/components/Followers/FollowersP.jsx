@@ -1,11 +1,14 @@
 import React from "react";
-import "./Views.css";
-
+import "./FollowersP.css";
 import { Followers } from "../../Data/FollowersData";
-const Views = () => {
+
+const FollowersP = () => {
   return (
     <div className="Likes">
-      <h2>Who Viewed your post</h2>
+      {/* This will change to     "people you are following"
+          and you will renmove the blue background and leave the blue boarder when someone begins 
+          to follow somebody */}
+      <h2>people following you</h2>
 
       {Followers.map((follower, id) => {
         return (
@@ -25,4 +28,4 @@ const Views = () => {
   );
 };
 
-export default Views;
+export default FollowersP;
